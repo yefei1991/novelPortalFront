@@ -29,6 +29,16 @@ export default new Router({
       path: '/books',
       name: 'books',
       component: () => import('@/components/BookList')
+    },
+    {
+      path: '/chapters',
+      name: 'chapters',
+      component: () => import('@/components/ChapterList')
+    },
+    {
+      path: '/chapterDetail',
+      name: 'chapterDetail',
+      component: () => import('@/components/ChapterDetail')
     }
   ]
 })
